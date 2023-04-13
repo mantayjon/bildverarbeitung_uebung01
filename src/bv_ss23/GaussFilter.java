@@ -18,7 +18,8 @@ public class GaussFilter {
 	public void apply(RasterImage src, RasterImage dst, int kernelSize, double sigma) {
  		   	  	  		
 		// TODO: Implement a Gauss filter of size "kernelSize" x "kernelSize" with given "sigma"
-		
+
+		kernel = new double[kernelSize][kernelSize];
 		// Step 1: Allocate appropriate memory for the field variable "kernel" representing a 2D array.
 		
 		// Step 2: Fill in appropriate values into the "kernel" array.

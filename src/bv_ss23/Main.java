@@ -29,7 +29,6 @@ public class Main extends Application {
 		primaryStage.setTitle("Gauss Filter Application - SS2023 - <Mantay>"); // TODO: add your name(s)
 		primaryStage.show();
 	}
- 		   	  	  		
 	public static void main(String[] args) {
 		launch(args);
 	}
