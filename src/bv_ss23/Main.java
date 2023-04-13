@@ -26,7 +26,7 @@ public class Main extends Application {
 		BorderPane root = (BorderPane)loadFXML("FilterAppView.fxml");
 		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Gauss Filter Application - SS2023 - <Mantay>"); // TODO: add your name(s)
+		primaryStage.setTitle("Gauss Filter Application - SS2023 - <Bohnomme_Mantay>"); // TODO: add your name(s)
 		primaryStage.show();
 	}
 	public static void main(String[] args) {
