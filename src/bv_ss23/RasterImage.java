@@ -78,7 +78,7 @@ public class RasterImage {
 
     // image point operations to be added here
 
-    public void convertToGray() { // TODO: convert the image to grayscale
+    public void convertToGray() {
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 int pos = y * width + x;
